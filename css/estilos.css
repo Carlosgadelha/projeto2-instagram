@@ -1,0 +1,138 @@
+h1{
+    color: brown;
+}
+header{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    justify-content:space-around;
+    border-bottom: solid 1px #DBDBDB;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{ padding-left: 10px;}
+
+.logo ion-icon{
+    padding-right: 11.38px;
+    font-size: 19.25px;
+    border-right: solid 1px #DBDBDB;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 28px;
+    align-items: center;
+    border: solid 1px #DBDBDB;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus ion-icon{
+    padding-right: 11.38px;
+    font-size: 19.25px;
+
+}
+
+.conteudo{
+    background: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    margin-top: 54px;
+    display: flex;
+    
+    
+}
+
+.publicacoes{
+    width: 614px;
+    margin-left: 215px;
+}
+
+.barra-lateral{
+    background: green;
+    width: 293px;
+    height:443px ;
+    /* margin-left: 30px;
+    margin-right: 216px;
+    margin-top: 57px;
+    */
+    position: fixed;
+    top: 111px; 
+    left: 858px;
+    right: 216px;
+
+}
+
+.storys{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 614px;
+    height: 118px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+
+.story{
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.story .borda {
+
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    position: relative;
+    
+    top: 0px;
+    left: 0px;
+}
+
+.story img{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    
+}
+
+.publicacoes .publicacao{
+    background: rosybrown;
+    width: 614px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.publicacao .imagens{
+    width: 612px;
+    height: 612px;
+}
+
+.publicacao .usuario{
+    display: flex;
+}
+
