@@ -65,7 +65,7 @@ header{
 }
 
 .barra-lateral{
-    background: green;
+    background: #E5E5E5;
     width: 293px;
     height:443px ;
     /* margin-left: 30px;
@@ -77,6 +77,34 @@ header{
     left: 858px;
     right: 216px;
 
+}
+
+.barra-lateral .perfil{
+    height: 80px;
+    background: gray;
+}
+
+.barra-lateral .sugestoes{
+    height: 245px;
+    background: peru;
+}
+
+.barra-lateral .infos-empresa p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
+.infos-empresa .sobre{
+    margin-top: 33px;
+}
+
+.infos-empresa .empresa{
+    margin-top: 18px;
+    margin-bottom: 0px;
 }
 
 .storys{
@@ -121,7 +149,7 @@ header{
 }
 
 .publicacoes .publicacao{
-    background: rosybrown;
+    background: rgba(255, 255, 255, 1);
     width: 614px;
     margin-top: 24px;
     margin-bottom: 60px;
@@ -134,5 +162,77 @@ header{
 
 .publicacao .usuario{
     display: flex;
+    align-items: center;
+    height: 61px;
+
+}
+.usuario img{
+    width: 32px;
+    margin-left: 17px;
+    margin-right: 15px;
 }
 
+.usuario p{ width: 109px;}
+
+.usuario ion-icon{
+    color: rgba(38, 38, 38, 1);
+    margin-left: 409.5px;
+    /* margin-left: 582.5px; */
+}
+
+.publicacao .interracao-publicacao{ height: 76px; }
+
+.interracao-publicacao .curtidas{
+    display: flex;
+    
+    height: 34px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.interracao-publicacao .opcoes{
+   
+    height: 42px;
+}
+
+.curtidas img{ 
+    height: 20px;
+    margin-bottom: 14px;
+    margin-left: 17px;
+    margin-right: 5px;
+}
+
+.curtidas p{ 
+    margin-bottom: 14px;
+}
+
+.opcoes .icon-heart{
+    width: 16.5px;
+    height: 15.13px;
+    margin-left: 17.75px;
+    margin-top: 13.44px;
+}
+
+.opcoes .chatbubble{
+    height: 17.88px;
+    width: 17.88px;
+    margin-left: 17.81px;
+    margin-top: 12.06px;
+
+}
+
+.opcoes .icon-paper-plane{
+    height: 17.87px;
+    width: 17.87px;
+    margin-left: 18.12px;
+    margin-top: 12.06px;
+
+}
+
+.opcoes .icon-bookmark{
+    height: 17.88px;
+    width: 12.38px;
+    margin-left: 478.06px;
+    margin-top: 14px;
+
+}
