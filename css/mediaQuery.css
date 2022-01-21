@@ -1,0 +1,70 @@
+@media (max-width: 935px) {
+
+	.barra-lateral{
+		display:none;
+	}
+
+	.conteudo{
+	   display: flex;
+	   align-items: center;
+	   justify-content: center;
+	}
+
+	.publicacoes{
+		width: 614px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 614px) {
+
+	header{
+		display: none;
+	}
+
+	.conteudo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	 }
+ 
+	 .publicacoes{
+		 width: 100vw;
+		 margin-left: 0px;
+		 margin-right: 0px;
+	 }
+
+	 .publicacao{
+		width: 100vw;
+	 }
+	 .publicacao .imagens{
+		width: 100vw;
+		height: 100vw;
+	 }
+	 usuario ion-icon{
+		 margin-left: none;
+		 margin-right: 0px;
+	 }	 
+
+
+
+	.conteudo{
+		width: 100vw;
+	}
+	.storys{
+		background: none;
+		width: 100vw;
+	}
+	.storys .seta{
+		display: none;
+	}
+
+	.interracao-publicacao{
+		width: 100vw;
+	}
+ 
+
+
+
+}

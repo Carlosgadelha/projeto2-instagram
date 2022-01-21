@@ -80,13 +80,78 @@ header{
 }
 
 .barra-lateral .perfil{
+    display: flex;
+    align-items: center;
     height: 80px;
-    background: gray;
+}
+
+.perfil img{
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
 }
 
 .barra-lateral .sugestoes{
     height: 245px;
-    background: peru;
+}
+
+.sugestoes div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sugestao{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.sugestao .perfil-sugestoes {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-sugestoes .nome{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    margin-bottom: 6px;
+}
+
+.nome h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+.sugestao p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139EF2;
+}
+.perfil-sugestoes img{ 
+    margin-right: 11px;
+
 }
 
 .barra-lateral .infos-empresa p{
@@ -111,19 +176,52 @@ header{
     background: rgba(255, 255, 255, 1);
     border-radius: 3px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     width: 614px;
     height: 118px;
     margin-top: 34px;
     margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.storys .seta{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    position: absolute;
+    border-radius: 60px;
+    box-shadow: 0 0 10px gray;
+    width: 26px;
+    height: 26px;
+    right: 8px;
+    align-items:center;
+    justify-content: center;
+    z-index: 1;
 }
 
+.story-primeiro{ margin-left: 18px;}
 .story{
     position: relative;
+    height: 86px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    margin-right: 14px;
     z-index: 1;
     top: 0px;
     left: 0px;
+}
+
+.story p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #262626;
 }
 
 .story .borda {
