@@ -257,24 +257,35 @@ header{
     width: 612px;
     height: 612px;
 }
-
+.publicacao video{
+    width: 612px;
+    height: 612px;
+}
 .publicacao .usuario{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 61px;
 
 }
-.usuario img{
+
+.usuario .foto-usuario {
+    display: flex;
+    align-items: center;
+}
+.foto-usuario img{
     width: 32px;
     margin-left: 17px;
     margin-right: 15px;
 }
 
-.usuario p{ width: 109px;}
+.foto-usuario p{ width: 109px;}
 
 .usuario ion-icon{
     color: rgba(38, 38, 38, 1);
-    margin-left: 409.5px;
+    margin-right: 18.5px;
+    /* margin-right: 10px; */
+    /* margin-left: 409.5px; */
     /* margin-left: 582.5px; */
 }
 

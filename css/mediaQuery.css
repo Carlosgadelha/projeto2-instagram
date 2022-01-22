@@ -19,26 +19,65 @@
 
 @media (max-width: 614px) {
 
+	/* header{
+		display: none;
+	} */
+
 	.conteudo{
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		width: 100vw;
+		/* background: red; */
+	
 	 }
  
 	 .publicacoes{
 		 width: 100vw;
+		 /* background: yellow; */
+
+		 
+		 /* background: none;
+		  */
 
 	 }
+	 .publicacoes .publicacao{
+		 width: 100vw;
+		 margin-top: 1px;
+	 }
+
+	 .publicacao .imagens{
+		width: 100vw;
+		height: 100vw;
+	}
+	.publicacao video{
+		width: 100vw;
+		height: 100vw;
+	}
+
+	.interracao-publicacao{
+		background-color:seagreen ;
+	}
+
+	.interracao-publicacao .opcoes .icon-bookmark{
+		color:red;
+		margin-left: 10px;
+
+	}
+
+
 
 	.storys{
-		
-		background: none;
+
+		width: 100vw;
+		margin-top: 1px;
+		/* display: none; */
 
 	}
 	.storys .seta{
 		display: none;
 	}
+
 
 
  
