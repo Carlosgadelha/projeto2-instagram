@@ -66,11 +66,11 @@
 		height: 22px;
 	}
 
-	ion-icon:first-of-type{
+	.barra-inferior-mobile  ion-icon:first-of-type{
 		padding-left: 19px;
 	}
 
-	ion-icon:last-of-type{
+	.barra-inferior-mobile   ion-icon:last-of-type{
 		padding-right: 15px;
 	}
 	

@@ -343,6 +343,7 @@ header{
     align-items: center;
     margin-bottom: 0px;
 }
+
 .curtidas img{ 
     height: 20px;
     margin-bottom: 14px;
@@ -353,3 +354,5 @@ header{
 .curtidas p{ 
     margin-bottom: 14px;
 }
+
+
