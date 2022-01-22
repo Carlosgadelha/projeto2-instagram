@@ -1,11 +1,7 @@
-h1{
-    color: brown;
-}
+/*               Barra Topo                   */
+
 header{
-    display: flex;
-    height: 54px;
-    align-items: center;
-    justify-content:space-around;
+    
     border-bottom: solid 1px #DBDBDB;
     background: rgba(255, 255, 255, 1);
     position: fixed;
@@ -15,22 +11,35 @@ header{
     width: 100%;
     
 }
+.barra-topo-desktop{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    justify-content:space-around;
+}
+.barra-topo-mobile{
+    display: none;
+}
 
-.logo{
+.barra-inferior-mobile{
+    display: none;
+}
+
+.barra-topo-desktop .logo{
     display: flex;
     align-items: center;
     
 }
 
-.logo img{ padding-left: 10px;}
+.barra-topo-desktop .logo img{ padding-left: 10px;}
 
-.logo ion-icon{
+.barra-topo-desktop .logo ion-icon{
     padding-right: 11.38px;
     font-size: 19.25px;
     border-right: solid 1px #DBDBDB;
 }
 
-.pesquisar{
+.barra-topo-desktop .pesquisar{
     display: flex;
     justify-content: center;
     width: 215px;
@@ -38,40 +47,22 @@ header{
     align-items: center;
     border: solid 1px #DBDBDB;
 }
-.menus{
+.barra-topo-desktop .menus{
     display: flex;
     justify-content: space-between;
 }
 
-.menus ion-icon{
+.barra-topo-desktop .menus ion-icon{
     padding-right: 11.38px;
     font-size: 19.25px;
 
 }
 
-.conteudo{
-    background: #E5E5E5;
-    width: 100%;
-    height: 100%;
-    margin-top: 54px;
-    display: flex;
-    
-    
-}
-
-.publicacoes{
-    width: 614px;
-    margin-left: 215px;
-}
-
+/*              Sidebar                   */
 .barra-lateral{
-    background: #E5E5E5;
+
     width: 293px;
     height:443px ;
-    /* margin-left: 30px;
-    margin-right: 216px;
-    margin-top: 57px;
-    */
     position: fixed;
     top: 111px; 
     left: 858px;
@@ -172,11 +163,12 @@ header{
     margin-bottom: 0px;
 }
 
+/*              Storys                 */
+
 .storys{
     background: rgba(255, 255, 255, 1);
     border-radius: 3px;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     width: 614px;
     height: 118px;
@@ -246,6 +238,22 @@ header{
     
 }
 
+/*              Pubicações                */
+
+.conteudo{
+    background: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    margin-top: 54px;
+    display: flex;
+    
+}
+
+.publicacoes{
+    width: 614px;
+    margin-left: 215px;
+}
+
 .publicacoes .publicacao{
     background: rgba(255, 255, 255, 1);
     width: 614px;
@@ -261,6 +269,9 @@ header{
     width: 612px;
     height: 612px;
 }
+
+/*    Publicação Usuario  --> cabeçario da publicação    */
+
 .publicacao .usuario{
     display: flex;
     align-items: center;
@@ -284,26 +295,54 @@ header{
 .usuario ion-icon{
     color: rgba(38, 38, 38, 1);
     margin-right: 18.5px;
-    /* margin-right: 10px; */
-    /* margin-left: 409.5px; */
-    /* margin-left: 582.5px; */
 }
+
+/*              Interação Pubicações                */
 
 .publicacao .interracao-publicacao{ height: 76px; }
 
+
+
+.interracao-publicacao .opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.opcoes div{
+    display: flex;
+    align-items: center;
+}
+
+.opcoes ion-icon{
+    height: 17.88px;
+    width: 17.88px;
+}
+
+.opcoes div ion-icon:first-of-type{
+    padding-left: 17.81px;
+}
+
+.opcoes div ion-icon:nth-child(2){
+    padding-left: 17.81px;
+}
+
+.opcoes div ion-icon:nth-child(3){
+    padding-left: 18.12px;
+}
+
+.opcoes .icon-bookmark{
+    padding-right: 12.62px;
+}
+
+
 .interracao-publicacao .curtidas{
     display: flex;
-    
     height: 34px;
     align-items: center;
     margin-bottom: 0px;
 }
-
-.interracao-publicacao .opcoes{
-   
-    height: 42px;
-}
-
 .curtidas img{ 
     height: 20px;
     margin-bottom: 14px;
@@ -313,35 +352,4 @@ header{
 
 .curtidas p{ 
     margin-bottom: 14px;
-}
-
-.opcoes .icon-heart{
-    width: 16.5px;
-    height: 15.13px;
-    margin-left: 17.75px;
-    margin-top: 13.44px;
-}
-
-.opcoes .chatbubble{
-    height: 17.88px;
-    width: 17.88px;
-    margin-left: 17.81px;
-    margin-top: 12.06px;
-
-}
-
-.opcoes .icon-paper-plane{
-    height: 17.87px;
-    width: 17.87px;
-    margin-left: 18.12px;
-    margin-top: 12.06px;
-
-}
-
-.opcoes .icon-bookmark{
-    height: 17.88px;
-    width: 12.38px;
-    margin-left: 478.06px;
-    margin-top: 14px;
-
 }
