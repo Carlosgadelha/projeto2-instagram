@@ -96,6 +96,9 @@ header{
     align-items: center;
     margin-top: 17px;
 }
+.perfil h3{
+    color: #8E8E8E;
+}
 
 .sugestao .perfil-sugestoes {
     display: flex;
@@ -105,6 +108,30 @@ header{
 .perfil-sugestoes .nome{
     display: flex;
     flex-direction: column;
+}
+
+.sugestoes .nome-sugestoes{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+
+.sugestoes .nome-verTudo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #262626;
+
 }
 
 .nome h2{
