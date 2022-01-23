@@ -46,7 +46,24 @@ header{
     height: 28px;
     align-items: center;
     border: solid 1px #DBDBDB;
+    background: #FAFAFA;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
+
+.pesquisar input{
+    border: 0 none;
+    background: none;
+    text-align: center;
+    width: 215px;
+    height: 28px;
+}
+
+
+textarea:focus, input:focus, select:focus{
+    outline: 0;
+}
+
 .barra-topo-desktop .menus{
     display: flex;
     justify-content: space-between;
